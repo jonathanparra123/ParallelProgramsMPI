@@ -13,3 +13,11 @@ it is announced. This is a good intro as to understand how
 processes talk to each other in parallel programing.
 
 ***************************************************************
+
+MPI_Sort Uses different processes to sort a list of intergers.
+The idea of the sort works like the merge sort technique where
+instead of recursively sorting sub arrays of the main array, the 
+progam uses each process to sort the sub arrays individually and
+then merge the sub arrays into a sorted main array.
+
+****************************************************************
