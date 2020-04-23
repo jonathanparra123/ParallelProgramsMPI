@@ -21,3 +21,12 @@ progam uses each process to sort the sub arrays individually and
 then merge the sub arrays into a sorted main array.
 
 ****************************************************************
+
+MPI_Mandelbrot creates a file with a Mandelbrot image in it.
+The program decignates a part of the image to each process to 
+work on. Once each individual process calculates its own portion
+of the picture, it will send its portion to the main process 
+where the main process will put the sections together to complete
+a Mandelbrot image to a ppm file.
+
+******************************************************************
