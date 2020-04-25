@@ -32,11 +32,11 @@ a Mandelbrot image to a ppm file.
 ******************************************************************
 
 MPI_GameLife an implementation of the classic game of life program
-which a certain cell and looks at its neighbors. The cell's 
-survivability depends on the number of neighbors it currently
-has. The program goes through iterations of days where we can 
-see how the population is doing overall. I also made an option
-that shows the grid and how the cells are reacting with each 
-iteration.
+which takes a certain cell and looks at its neighbors using
+parallel programming. The cell's survivability depends on the number 
+of neighbors it currently has. The program goes through iterations 
+of days where we can see how the population is doing overall. I 
+also made an option that shows the grid and how the cells are 
+reacting with each iteration.
 
 ******************************************************************
