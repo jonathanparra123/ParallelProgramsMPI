@@ -40,3 +40,16 @@ also made an option that shows the grid and how the cells are
 reacting with each iteration.
 
 ******************************************************************
+
+MPI_TSP_GA is a interesting project where we tackle the traveling 
+salesmen problem using a genetic algorithm approach. We start
+by having each process create a unique solution at random. Once
+the solutions have been created, they are send to one process
+where it reviews all the different solutions and picks the most
+optimal one. If the main process does not recieve a better solution
+in a couple of iterations, it will send a portion of the most 
+optimal solution to the other processes in order to mix in
+and give birth to even better solutions using the sent portion
+as a base. This genetic algorithm sends DNA of optiomal solutions
+to different populations in hope of created the closes solution
+to a perfect one using parallel programing.
